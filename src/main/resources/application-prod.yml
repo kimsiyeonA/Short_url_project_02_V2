@@ -11,7 +11,7 @@ spring:
     ansi:
       enabled: always
   datasource:
-    url: jdbc:mysql://172.17.0.1:3306/surl_prod
+    url: jdbc:mysql://13.125.233.160:3306/surl_prod
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
