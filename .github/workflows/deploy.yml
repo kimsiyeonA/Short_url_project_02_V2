@@ -10,6 +10,10 @@ on:
       - 'infraScript/**'
     branches:
       - 'master' # 브랜치 주의
+
+permissions:
+  contents: write
+
 jobs:
   makeTagAndRelease:
     runs-on: ubuntu-latest
